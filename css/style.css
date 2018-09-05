@@ -1,0 +1,217 @@
+body{
+    margin: 0 auto;
+}
+i{
+    font-size: 1em;
+}
+
+
+       /*header*/
+   
+#blackHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white
+}
+
+.socialHeader{
+    display: flex;
+    margin: 1em 8em;
+    
+}
+.socialHeader i{
+    padding: 0 0.5em
+}
+.contactHeader {
+    display: flex;
+    align-content: center;
+    margin: 0em 8em;
+}
+.contactHeader i{
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em;
+
+}
+
+#whiteHeader{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: black;
+    margin: 0em 7em;
+}
+#whiteHeader ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#whiteHeader ul li {
+    float: left;
+}
+#whiteHeader ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:  20px;
+    text-decoration:none;
+    color: black
+}
+.phone{
+    transform: rotate(110deg)
+}
+/*/////// MEDIA ////////*/
+
+img,
+video,
+audio,
+iframe,
+table,
+form {
+  width: 100%;
+  /* IE */
+  max-width: 100%;
+  /* FF, Safari, Chrome */
+}
+
+/*////////// FIXES //////////*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* first */
+#first{
+    background-color: green;
+    text-align: center;
+
+}
+.firstContent{
+    width: 80%;
+    margin: 0 auto
+}
+.LaptopImage{
+    width: 40%;
+    margin: 0 auto;
+}
+.firstForm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.firstForm input{
+    border: 1px solid black;
+    border-radius: 15px 0 0 15px;
+    padding: 5px;
+}
+.firstForm button{
+    border: 1px solid black;
+    border-radius: 0 15px 15px 0;
+    padding: 5px;
+    background-color: green;
+    color:white;
+}
+.underForm{
+    color: white;
+}
+/* second */
+#second{
+    background-color: gainsboro;
+    text-align: center;
+}
+.comunityBox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.top{
+    transform: rotate(270deg);
+    font-size: 2em;
+    color: gray;
+}
+.butom{
+    transform: rotate(90deg);
+    font-size: 2em;
+    color: gray;
+}
+.SignupProces{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.SignupProces i{
+    font-size: 5em;
+    color: green;
+    margin: auto 10px;
+}
+
+.proccess{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+}
+.proccess i{
+    padding:15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+.proccess i:hover{
+    background-color: green;
+}
+
+/* Footer */
+footer{
+    background-color: aqua
+}
+.footerContent{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+}
+.footerContent{
+    width: 65%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.FooterPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerForm{
+    display: flex;
+  
+}
+.footerForm input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.footerForm button{
+    padding: 10px;
+    background-color: green;
+    color:white;
+    border: none;
+
+}
+
+.fButom{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
